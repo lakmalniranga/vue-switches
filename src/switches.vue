@@ -55,11 +55,7 @@ export default {
         }
     },
 
-    mounted () {
-        if(this.emitOnMount) {
-            this.$emit('input', this.value)
-        }
-    },
+    mounted () {},
 
     methods: {
         trigger (e) {
